@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateListActivity">
+
+
+        <TextView
+            android:id="@+id/datetxtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:text="DATE"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/timetxtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/Delete"
+            android:layout_alignTop="@+id/datetxtview"
+            android:text="TIME"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/eventtxtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/datetxtview"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/datetxtview"
+            android:layout_marginTop="76dp"
+            android:text="EVENT"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/ViewDate"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/datetxtview"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="63dp"
+            android:ems="10"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/ViewTime"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/datetxtview"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="13dp"
+            android:ems="10"
+            android:inputType="time"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="13dp" />
+
+        <EditText
+            android:id="@+id/ViewEvent"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/eventtxtview"
+            android:layout_alignEnd="@+id/ViewTime"
+            android:ems="10"
+            android:hint="enter event name "
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/nearby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/datetxtview"
+            android:layout_marginTop="141dp"
+            android:text="ADD"
+            android:layout_alignLeft="@+id/datetxtview" />
+
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/nearby"
+            android:layout_centerHorizontal="true"
+            android:text="DELETE" />
+
+        <Button
+            android:id="@+id/btStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/ViewTime"
+            android:layout_alignTop="@+id/nearby"
+            android:text="VIEW" />
+
+        <Spinner
+            android:id="@+id/spinnerItem"
+            android:layout_width="182dp"
+            android:layout_height="44dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="215dp"
+            android:layout_marginEnd="34dp" />
+
+        <Spinner
+            android:id="@+id/spinnerQuantity"
+            android:layout_width="78dp"
+            android:layout_height="44dp"
+            android:layout_alignEnd="@+id/spinnerItem"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="136dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/datetxtview"
+            android:layout_marginBottom="228dp"
+            android:text="CHOOSE ITEM"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/datetxtview"
+            android:layout_marginBottom="145dp"
+            android:text="CHOOSE QUANTITY"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="66dp"
+            android:layout_height="44dp"
+            android:layout_alignStart="@+id/timetxtview"
+            android:layout_alignTop="@+id/spinnerQuantity"
+            android:ems="10"
+            android:inputType="number" />
+
+    </RelativeLayout>

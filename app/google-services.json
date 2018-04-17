@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "964054902035",
+    "firebase_url": "https://makemylist-5609c.firebaseio.com",
+    "project_id": "makemylist-5609c",
+    "storage_bucket": "makemylist-5609c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964054902035:android:ee0547061cf9231f",
+        "android_client_info": {
+          "package_name": "com.android.gokulakrishnan.makemylist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964054902035-s3co6o7ad3tkv3q27p7drkjh4s8gvpn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.gokulakrishnan.makemylist",
+            "certificate_hash": "f0a4945d6c90289df870fe8d1409ebeab429b94c"
+          }
+        },
+        {
+          "client_id": "964054902035-n7a7mjj0e5ogo0vl26ujv37atjrccjh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnAn_UGDtRDSF29v8LZ9F3YtHD9ljpoLk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964054902035-n7a7mjj0e5ogo0vl26ujv37atjrccjh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">MakeMyList</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="groceryItems">
+        <item>alfalfa sprouts	</item>
+        <item>amrud	</item>
+        <item>anise	</item>
+        <item>Apple	</item>
+        <item>Apricot	</item>
+        <item>artichoke	</item>
+        <item>arugula	</item>
+        <item>asparagus	</item>
+        <item>aubergine (eggplant)	</item>
+        <item>Avocado	</item>
+        <item>azuki beans (adzuki)	</item>
+        <item>Banana	</item>
+        <item>banana squash	</item>
+        <item>basil	</item>
+        <item>bean sprouts	</item>
+        <item>beet greens (chard)	</item>
+        <item>beetroot	</item>
+        <item>bell pepper	</item>
+        <item>Bilberry	</item>
+        <item>bitter melon	</item>
+        <item>black beans	</item>
+        <item>Blackberry	</item>
+        <item>Blackcurrant	</item>
+        <item>black-eyed peas	</item>
+        <item>Blood orange	</item>
+        <item>Blueberry	</item>
+        <item>bok choy	</item>
+        <item>borlotti bean	</item>
+        <item>Boysenberry	</item>
+        <item>broad beans	</item>
+        <item>broccoflower	</item>
+        <item>broccoli (calabrese)	</item>
+        <item>brussels sprouts	</item>
+        <item>Buddha's hand (fingered citron)	</item>
+        <item>butternut squash	</item>
+        <item>cabbage	</item>
+        <item>Cantaloupe	</item>
+        <item>caraway	</item>
+        <item>carrot	</item>
+        <item>cauliflower	</item>
+        <item>Cayenne pepper	</item>
+        <item>celeriac	</item>
+        <item>celery	</item>
+        <item>chamomile	</item>
+        <item>chard (beet greens)	</item>
+        <item>Cherimoya	</item>
+        <item>Cherry	</item>
+        <item>chickpeas, garbanzos, or ceci beans	</item>
+        <item>Chico fruit	</item>
+        <item>chili pepper	</item>
+        <item>Chili pepper	</item>
+        <item>Chives	</item>
+        <item>cilantro	</item>
+        <item>Clementine	</item>
+        <item>Cloudberry	</item>
+        <item>Coconut	</item>
+        <item>collard greens	</item>
+        <item>coriander	</item>
+        <item>Corn kernel	</item>
+        <item>courgette , Zucchini 	</item>
+        <item>Crab apples	</item>
+        <item>Cranberry	</item>
+        <item>Cucumber	</item>
+        <item>Cucumber	</item>
+        <item>cucumber 	</item>
+        <item>Currant	</item>
+        <item>Custard apple	</item>
+        <item>daikon	</item>
+        <item>Damson	</item>
+        <item>Date	</item>
+        <item>delicata	</item>
+        <item>dill	</item>
+        <item>Dragonfruit	</item>
+        <item>Durian	</item>
+        <item>EggplantOlive	</item>
+        <item>Elderberry	</item>
+        <item>endive	</item>
+        <item>Feijoa	</item>
+        <item>fennel	</item>
+        <item>fennel	</item>
+        <item>fiddleheads	</item>
+        <item>Fig	</item>
+        <item>frisee	</item>
+        <item>Garlic	</item>
+        <item>gem squash	</item>
+        <item>ginger	</item>
+        <item>Goji berry	</item>
+        <item>gonzoberry	</item>
+        <item>Gooseberry	</item>
+        <item>Grape	</item>
+        <item>Grapefruit	</item>
+        <item>green beans	</item>
+        <item>greens	</item>
+        <item>Guava	</item>
+        <item>Habanero	</item>
+        <item>herbs and spices	</item>
+        <item>Honeyberry	</item>
+        <item>Honeydew	</item>
+        <item>horseradish	</item>
+        <item>hubbard squash	</item>
+        <item>Huckleberry	</item>
+        <item>Jabuticaba	</item>
+        <item>Jackfruit	</item>
+        <item>Jalapeño	</item>
+        <item>Jambul	</item>
+        <item>jerusalem artichoke	</item>
+        <item>jicama	</item>
+        <item>Jujube	</item>
+        <item>Juniper berry	</item>
+        <item>kale	</item>
+        <item>kidney beans	</item>
+        <item>Kiwano	</item>
+        <item>Kiwifruit	</item>
+        <item>kohlrabi	</item>
+        <item>Kumquat	</item>
+        <item>lavender	</item>
+        <item>Leek	</item>
+        <item>legumes	</item>
+        <item>Lemon	</item>
+        <item>lemon Grass	</item>
+        <item>lentils	</item>
+        <item>lettuce	</item>
+        <item>lima beans or Butter bean	</item>
+        <item>Lime	</item>
+        <item>LonganLychee	</item>
+        <item>Loquat	</item>
+        <item>Mandarine	</item>
+        <item>mangetout or snap peas	</item>
+        <item>Mango	</item>
+        <item>Mangosteen	</item>
+        <item>Marionberry	</item>
+        <item>marjoram	</item>
+        <item>marrow 	</item>
+        <item>Melon	</item>
+        <item>Miracle fruit	</item>
+        <item>Mulberry	</item>
+        <item>mung beans	</item>
+        <item>mushrooms	</item>
+        <item>mustard greens	</item>
+        <item>Nance	</item>
+        <item>navy beans	</item>
+        <item>Nectarine	</item>
+        <item>nettles	</item>
+        <item>New Zealand spinach	</item>
+        <item>okra	</item>
+        <item>Olive	</item>
+        <item>onion	</item>
+        <item>onions	</item>
+        <item>Orange	</item>
+        <item>oregano	</item>
+        <item>Papaya	</item>
+        <item>Paprika	</item>
+        <item>parsley	</item>
+        <item>parsley	</item>
+        <item>parsnip	</item>
+        <item>Passionfruit	</item>
+        <item>patty pans	</item>
+        <item>Pea	</item>
+        <item>Peach	</item>
+        <item>Pear	</item>
+        <item>peas	</item>
+        <item>peppers	</item>
+        <item>Persimmon	</item>
+        <item>Pineapple	</item>
+        <item>pinto beans	</item>
+        <item>Plantain	</item>
+        <item>Plum	</item>
+        <item>Plumcot (or Pluot)	</item>
+        <item>Pomegranate	</item>
+        <item>Pomelo	</item>
+        <item>potato	</item>
+        <item>Prune (dried plum)	</item>
+        <item>pumpkin	</item>
+        <item>Pumpkin	</item>
+        <item>Purple mangosteen	</item>
+        <item>quandong	</item>
+        <item>Quince	</item>
+        <item>radicchio	</item>
+        <item>radish	</item>
+        <item>Raisin	</item>
+        <item>Rambutan	</item>
+        <item>Raspberry	</item>
+        <item>Redcurrant	</item>
+        <item>rhubarb	</item>
+        <item>root vegetables	</item>
+        <item>rosemary	</item>
+        <item>runner beans	</item>
+        <item>rutabaga	</item>
+        <item>sage	</item>
+        <item>Salak	</item>
+        <item>Salal berry	</item>
+        <item>Salmonberry	</item>
+        <item>salsify (Oyster Plant)	</item>
+        <item>Satsuma	</item>
+        <item>scallion (spring onion)	</item>
+        <item>shallot	</item>
+        <item>skirret	</item>
+        <item>Soursop	</item>
+        <item>soy beans	</item>
+        <item>spaghetti squash	</item>
+        <item>spinach	</item>
+        <item>split peas	</item>
+        <item>Squash	</item>
+        <item>squashes	</item>
+        <item>Star fruit	</item>
+        <item>Strawberry	</item>
+        <item>sunchokes	</item>
+        <item>sweet potato	</item>
+        <item>sweetcorn	</item>
+        <item>Tabasco pepper	</item>
+        <item>Tamarillo	</item>
+        <item>Tamarind	</item>
+        <item>Tangerine	</item>
+        <item>taro	</item>
+        <item>tat soi	</item>
+        <item>thyme	</item>
+        <item>Tomato	</item>
+        <item>topinambur	</item>
+        <item>tubers	</item>
+        <item>turnip	</item>
+        <item>Ugli fruit	</item>
+        <item>wasabi	</item>
+        <item>water chestnut	</item>
+        <item>watercress	</item>
+        <item>Watermelon	</item>
+        <item>white radish	</item>
+        <item>yam	</item>
+        <item>YuzuAvocado	</item>
+        <item>zucchini	</item>
+
+    </string-array>
+
+
+    <string-array name="quantity">
+        <item>G</item>
+        <item>KG</item>
+        <item>L</item>
+        <item>ML</item>
+        <item>DOZEN</item>
+        <item>PACKETS</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_nearby">Map</string>
+
+
+</resources>
